@@ -22,7 +22,16 @@ the previous token does not work.
 
 ## TODO
 
-- Find a way of working around the authorization token
+- ~~Find a way of working around the authorization token~~ I have tinkeder with the encrypted keys and it seems that they are, as unsurprising as it 
+is, uncrackable. Only a part of the authorization key changes whenever it gets updated but as I stated before, it still is uncrackable. The only 
+I know of is somehow bypassing the captcha, however I neither have rescources to run an OCR nor the budget to pay for an API to automatically solve 
+the captcha. There may be some techniques that I am unaware of so if anyone stumbles upon this repo, please let me know.
 - Automatically buy tickets as soon as the sales panel is open for the user
 - Work with output string formatting
 - Make the code more readable (re-format it)
+
+### Additional Information About The Progress
+
+Since I am busy with my studies (finals), I don't think I will be able to make the bot automatically buy tickets since it requires more tinkering with credit 
+the API requests and banking etc.. The format of the output seems nice enough for me and code readability is something I don't have time to adjust 
+since it requires time and the program is functioning, so I am semi-satisfied.
